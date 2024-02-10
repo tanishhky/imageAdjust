@@ -1,12 +1,23 @@
 {
-    "name": "imageadjust",
-    "version": "1.0.0",
-    "description": "A simple npm package for adjusting image contrast",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": ["image", "contrast"],
-    "author": "Tanishk Yadav and Sanjana Maini",
-    "license": "MIT"
+  "name": "imageadjust",
+  "version": "1.0.0",
+  "description": "A simple npm package for adjusting image contrast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "contrast"
+  ],
+  "author": "Tanishk Yadav and Sanjana Maini",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanishhky/imageAdjust.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tanishhky/imageAdjust/issues"
+  },
+  "homepage": "https://github.com/tanishhky/imageAdjust#readme"
 }

@@ -1,7 +1,7 @@
 {
   "name": "imageadjust",
-  "version": "1.0.0",
-  "description": "A simple npm package for adjusting image contrast",
+  "version": "1.1.0",
+  "description": "A simple npm package for adjusting image contrast and cropping",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

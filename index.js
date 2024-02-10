@@ -28,4 +28,19 @@ function adjustContrast(img, contrast = 0) {
     return canvas.toDataURL();
 }
 
-module.exports = adjustContrast;
+function cropImage(img, x, y, width, height) {
+    const canvas = document.createElement('canvas');
+    const ctx = canvas.getContext('2d');
+
+    // Set canvas size to crop size
+    canvas.width = width;
+    canvas.height = height;
+
+    // Draw cropped image onto canvas
+    ctx.drawImage(img, x, y, width, height, 0, 0, width, height);
+
+    // Return the cropped image as data URL
+    return canvas.toDataURL();
+}
+
+module.exports = { adjustContrast, cropImage };
